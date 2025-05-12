@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF9671432DC298AA004282A2 /* CoreDisplay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9671422DC298AA004282A2 /* CoreDisplay.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF9671222DC2958A004282A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF96710B2DC2958A004282A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF9671122DC2958A004282A2;
+			remoteInfo = "DDC Test";
+		};
+		FF96712C2DC2958A004282A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF96710B2DC2958A004282A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF9671122DC2958A004282A2;
+			remoteInfo = "DDC Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF9671132DC2958A004282A2 /* Pegasus Monitor Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pegasus Monitor Control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF9671212DC2958A004282A2 /* PegasusMonitorControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PegasusMonitorControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF96712B2DC2958A004282A2 /* PegasusMonitorControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PegasusMonitorControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF9671402DC2964D004282A2 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		FF9671422DC298AA004282A2 /* CoreDisplay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreDisplay.framework; path = ../../../../../System/Library/Frameworks/CoreDisplay.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FF9671152DC2958A004282A2 /* Pegasus Monitor Control */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Pegasus Monitor Control";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF9671102DC2958A004282A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9671432DC298AA004282A2 /* CoreDisplay.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF96711E2DC2958A004282A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9671282DC2958A004282A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF96710A2DC2958A004282A2 = {
+			isa = PBXGroup;
+			children = (
+				FF9671402DC2964D004282A2 /* Bridging-Header.h */,
+				FF9671152DC2958A004282A2 /* Pegasus Monitor Control */,
+				FF9671412DC298AA004282A2 /* Frameworks */,
+				FF9671142DC2958A004282A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF9671142DC2958A004282A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF9671132DC2958A004282A2 /* Pegasus Monitor Control.app */,
+				FF9671212DC2958A004282A2 /* PegasusMonitorControlTests.xctest */,
+				FF96712B2DC2958A004282A2 /* PegasusMonitorControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF9671412DC298AA004282A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF9671422DC298AA004282A2 /* CoreDisplay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF9671122DC2958A004282A2 /* PegasusMonitorControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF9671352DC2958A004282A2 /* Build configuration list for PBXNativeTarget "PegasusMonitorControl" */;
+			buildPhases = (
+				FF96710F2DC2958A004282A2 /* Sources */,
+				FF9671102DC2958A004282A2 /* Frameworks */,
+				FF9671112DC2958A004282A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FF9671152DC2958A004282A2 /* Pegasus Monitor Control */,
+			);
+			name = PegasusMonitorControl;
+			packageProductDependencies = (
+			);
+			productName = "DDC Test";
+			productReference = FF9671132DC2958A004282A2 /* Pegasus Monitor Control.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF9671202DC2958A004282A2 /* PegasusMonitorControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF9671382DC2958A004282A2 /* Build configuration list for PBXNativeTarget "PegasusMonitorControlTests" */;
+			buildPhases = (
+				FF96711D2DC2958A004282A2 /* Sources */,
+				FF96711E2DC2958A004282A2 /* Frameworks */,
+				FF96711F2DC2958A004282A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF9671232DC2958A004282A2 /* PBXTargetDependency */,
+			);
+			name = PegasusMonitorControlTests;
+			packageProductDependencies = (
+			);
+			productName = "DDC TestTests";
+			productReference = FF9671212DC2958A004282A2 /* PegasusMonitorControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF96712A2DC2958A004282A2 /* PegasusMonitorControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF96713B2DC2958A004282A2 /* Build configuration list for PBXNativeTarget "PegasusMonitorControlUITests" */;
+			buildPhases = (
+				FF9671272DC2958A004282A2 /* Sources */,
+				FF9671282DC2958A004282A2 /* Frameworks */,
+				FF9671292DC2958A004282A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF96712D2DC2958A004282A2 /* PBXTargetDependency */,
+			);
+			name = PegasusMonitorControlUITests;
+			packageProductDependencies = (
+			);
+			productName = "DDC TestUITests";
+			productReference = FF96712B2DC2958A004282A2 /* PegasusMonitorControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF96710B2DC2958A004282A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					FF9671122DC2958A004282A2 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					FF9671202DC2958A004282A2 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = FF9671122DC2958A004282A2;
+					};
+					FF96712A2DC2958A004282A2 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = FF9671122DC2958A004282A2;
+					};
+				};
+			};
+			buildConfigurationList = FF96710E2DC2958A004282A2 /* Build configuration list for PBXProject "PegasusMonitorControl" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF96710A2DC2958A004282A2;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FF9671142DC2958A004282A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF9671122DC2958A004282A2 /* PegasusMonitorControl */,
+				FF9671202DC2958A004282A2 /* PegasusMonitorControlTests */,
+				FF96712A2DC2958A004282A2 /* PegasusMonitorControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF9671112DC2958A004282A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF96711F2DC2958A004282A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9671292DC2958A004282A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF96710F2DC2958A004282A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF96711D2DC2958A004282A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9671272DC2958A004282A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF9671232DC2958A004282A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF9671122DC2958A004282A2 /* PegasusMonitorControl */;
+			targetProxy = FF9671222DC2958A004282A2 /* PBXContainerItemProxy */;
+		};
+		FF96712D2DC2958A004282A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF9671122DC2958A004282A2 /* PegasusMonitorControl */;
+			targetProxy = FF96712C2DC2958A004282A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FF9671332DC2958A004282A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_DEBUG_DYLIB = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_FORCE_LEGACY_DRIVER = 1;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF9671342DC2958A004282A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_DEBUG_DYLIB = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_FORCE_LEGACY_DRIVER = 1;
+			};
+			name = Release;
+		};
+		FF9671362DC2958A004282A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/Pegasus Monitor Control/PegasusMonitorControl.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = beef.code.PegasusMonitorControl;
+				PRODUCT_NAME = "Pegasus Monitor Control";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FF9671372DC2958A004282A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/Pegasus Monitor Control/PegasusMonitorControl.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = beef.code.PegasusMonitorControl;
+				PRODUCT_NAME = "Pegasus Monitor Control";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FF9671392DC2958A004282A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "beef.code.DDC-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PegasusMonitorControl.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PegasusMonitorControl";
+			};
+			name = Debug;
+		};
+		FF96713A2DC2958A004282A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "beef.code.DDC-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PegasusMonitorControl.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PegasusMonitorControl";
+			};
+			name = Release;
+		};
+		FF96713C2DC2958A004282A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "beef.code.DDC-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "DDC Test";
+			};
+			name = Debug;
+		};
+		FF96713D2DC2958A004282A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "beef.code.DDC-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "DDC Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF96710E2DC2958A004282A2 /* Build configuration list for PBXProject "PegasusMonitorControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9671332DC2958A004282A2 /* Debug */,
+				FF9671342DC2958A004282A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF9671352DC2958A004282A2 /* Build configuration list for PBXNativeTarget "PegasusMonitorControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9671362DC2958A004282A2 /* Debug */,
+				FF9671372DC2958A004282A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF9671382DC2958A004282A2 /* Build configuration list for PBXNativeTarget "PegasusMonitorControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9671392DC2958A004282A2 /* Debug */,
+				FF96713A2DC2958A004282A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF96713B2DC2958A004282A2 /* Build configuration list for PBXNativeTarget "PegasusMonitorControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF96713C2DC2958A004282A2 /* Debug */,
+				FF96713D2DC2958A004282A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF96710B2DC2958A004282A2 /* Project object */;
+}
